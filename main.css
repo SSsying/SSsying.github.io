@@ -1,0 +1,155 @@
+body {
+  background-image: url(./img/hero_image.jpg);
+  background-size: cover;
+}
+.top_bar {
+  background-color: #474747;
+  padding-top: 9px;
+  padding-bottom: 8.83px;
+  padding-left: 100px;
+  vertical-align: middle;
+  color: var(--neutral-02, #f9f9f7);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.top_bar ul {
+  display: inline-block;
+  padding-left: 840px;
+  margin: 0px;
+  vertical-align: middle;
+  width: calc(100%-400px);
+}
+.top_bar ul li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+.nav {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.nav img {
+  width: 350px;
+  padding-left: 75px;
+  display: inline-block;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav ul {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 60px;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  text-decoration: none;
+  margin: 2px;
+  padding: 15px;
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.nav ul li a:hover {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34px;
+  background: #dbdfd0;
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.nav button {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 118px;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  margin-left: 175px;
+  color: var(--neutral-07, #182226);
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.hero {
+}
+.hero h1 {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  padding-top: 110px;
+}
+.hero p {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 55px;
+}
+.hero_button {
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 55px;
+}
+.hero_button button {
+  color: var(--neutral-01, #182226);
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  display: inline-block;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 118px;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  vertical-align: middle;
+}
+.hero_button button:hover {
+  color: var(--neutral-01, #ffffff);
+  background-color: #ad343e;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  display: inline-block;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 118px;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  vertical-align: middle;
+}
